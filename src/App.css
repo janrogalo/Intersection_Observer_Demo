@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+main{
+    background-color: #434343;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+li{
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    position: relative;
+    padding: 30px;
+    margin: 40px;
+}
+
+h2{
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+p{
+    font-size: 14px;
+    margin: 10px 0;
+    width: 70%;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.article-display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timer{
+    border-radius: 50%;
+    color: white;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: #156715;
+}
+
+
+.active{
+    transform: scale(1.05);
+    transition: all 0.7s ease-in-out;
+    background-color: #434343;
+    color: white;
+}
+
+#bottom{
+    height: 100vh;
+    width: 100%;
+ background-color: #434343;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-button{
+    padding: 20px 50px;
+    background-color: red;
+    border: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    transition: all 1s ease-in-out;
+}
+
+.bottom-button:hover{
+    background-color: white;
+
+}
+
+
+.no-of-articles{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    top: 10%;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 800;
+    background-color: white;
+    border-radius: 50%;
+}
